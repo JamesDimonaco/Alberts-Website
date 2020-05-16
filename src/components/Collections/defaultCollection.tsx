@@ -1,12 +1,9 @@
 import React from 'react';
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonButton, IonGrid, IonRow, IonCol} from '@ionic/react';
-import './Collections.css';
 
 
-const defaultCollection: React.FC = () => {
-    return (
 
-
+export const DefaultCollection: React.FC = () => (
         <IonContent>
             <IonGrid className="Photowall">
               <IonRow>
@@ -48,7 +45,4 @@ const defaultCollection: React.FC = () => {
              </IonGrid>
 
         </IonContent>
-
-    )};
-
-export default defaultCollection;
+);

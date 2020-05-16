@@ -1,6 +1,6 @@
 import React from 'react';
 import { IonGrid, IonCol, IonContent, IonRow } from '@ionic/react';
-
+import "./"
 
 
 const italianCollection: React.FC = () => {
