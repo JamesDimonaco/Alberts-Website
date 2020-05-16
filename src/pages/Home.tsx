@@ -2,22 +2,15 @@ import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonButton, IonImg
 import React from 'react';
 import './Home.css';
 import Footer from '../components/Footer';
+import Header from '../components/Header';
 
 
 
 const Home: React.FC = () => {
   return (
     <IonPage>
-      <IonHeader>
-        <IonToolbar>
-          <IonTitle>
-            <IonButton className="leftButterCenter">Home</IonButton>
-            <IonButton className="Center" routerLink='/Collections'>Collections</IonButton>
-            <IonButton className="Center">Prints</IonButton>
-            <IonButton className="Center">Contact</IonButton>
-          </IonTitle>
-        </IonToolbar>
-      </IonHeader>
+
+        <Header/>
       <IonContent>
         <IonHeader collapse="condense">
           <IonToolbar>
