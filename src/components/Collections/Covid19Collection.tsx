@@ -3,9 +3,9 @@ import { IonContent, IonGrid, IonRow, IonCol} from '@ionic/react';
 
 
 
-export const ItalianCollection: React.FC = () => (
+export const Covid19Collection: React.FC = () => (
         <IonContent>
-            <IonGrid>
+            <IonGrid >
               <IonRow>
                 <IonCol>
                   <div><p>Collection 1</p></div>

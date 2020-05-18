@@ -1,17 +1,17 @@
 import React from 'react';
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonButton, IonGrid, IonRow, IonCol} from '@ionic/react';
+import { IonContent, IonGrid, IonRow, IonCol} from '@ionic/react';
 
 
 
 export const DefaultCollection: React.FC = () => (
         <IonContent>
-            <IonGrid className="Photowall">
+            <IonGrid>
               <IonRow>
                 <IonCol>
-                  <div><p>Collection 1</p></div>
+                  <div><p>The Italy Collection</p></div>
                 </IonCol>
                 <IonCol>
-                  <div><p>Collection 2</p></div>
+                  <div><p>The Africa Collection</p></div>
                 </IonCol>
                 <IonCol>
                   <div><p>Collection 3</p></div>
@@ -25,13 +25,13 @@ export const DefaultCollection: React.FC = () => (
               </IonRow>
                 <IonRow>
                   <IonCol>
-                    <div><img src="https://storage.googleapis.com/web-images-for-bert/Africa/IMG_0015-2.jpg"></img></div>
+                    <div><img src="https://storage.googleapis.com/web-images-for-bert/Africa/train%20pgtp.jpg"></img></div>
                   </IonCol>
                   <IonCol>
-                    <div><img src="https://storage.googleapis.com/web-images-for-bert/Africa/face-2.jpg"></img></div>
+                    <div><img src="https://static.wixstatic.com/media/0dfd41_442926dbcbf543ba90f982f1bd414e55~mv2_d_3264_1836_s_2.jpg/v1/fill/w_2471,h_1390,al_c,q_90,usm_0.66_1.00_0.01/0dfd41_442926dbcbf543ba90f982f1bd414e55~mv2_d_3264_1836_s_2.webp"></img></div>
                   </IonCol>
                   <IonCol>
-                    <div><img src="https://storage.googleapis.com/web-images-for-bert/Africa/girl-23.jpg"></img></div>
+                    <div><img src="https://cdn.discordapp.com/attachments/533906819324837944/711226559679168593/image0.jpg"></img></div>
                   </IonCol>
                   <IonCol>
                     <div><img src="https://storage.googleapis.com/web-images-for-bert/Africa/tinder4.jpg"></img></div>
@@ -40,6 +40,8 @@ export const DefaultCollection: React.FC = () => (
                     <div><img src="https://storage.googleapis.com/web-images-for-bert/Africa/train%20pgtp.jpg"></img></div>
                   </IonCol>
                 </IonRow>
+                
+       
 
 
              </IonGrid>

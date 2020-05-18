@@ -1,5 +1,5 @@
 import React from 'react';
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar} from '@ionic/react';
+import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonButton, IonActionSheet} from '@ionic/react';
 import './Collections.css';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
@@ -8,6 +8,10 @@ import { DefaultCollection } from '../components/Collections/DefaultCollection'
 
 
 const Collections: React.FC = () => {
+
+
+
+
   return (
     <IonPage>
 
@@ -18,7 +22,12 @@ const Collections: React.FC = () => {
           <IonToolbar>
             <IonTitle size="large"></IonTitle>
           </IonToolbar>
-          <DefaultCollection></DefaultCollection>
+
+              <IonButton>Change to africa</IonButton>
+
+          <DefaultCollection/>
+
+
         </IonHeader>
           <DefaultCollection/>
 
