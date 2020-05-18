@@ -23,11 +23,6 @@ const Collections: React.FC = () => {
             <IonTitle size="large"></IonTitle>
           </IonToolbar>
 
-              <IonButton>Change to africa</IonButton>
-
-          <DefaultCollection/>
-
-
         </IonHeader>
           <DefaultCollection/>
 
