@@ -22,8 +22,6 @@ import '@ionic/react/css/display.css';
 
 /* Theme variables */
 import './theme/variables.css';
-import Photowall from './pages/Collections';
-import { rootCertificates } from 'tls';
 import Collections from './pages/Collections';
 
 const App: React.FC = () => (

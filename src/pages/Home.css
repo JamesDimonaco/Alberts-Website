@@ -1,6 +1,7 @@
 .leftButterCenter{
 margin-left: 35%;
 margin-right: 20px;
+--color: white;
 }
 .Center{
     margin: 10px 20px;
@@ -15,8 +16,13 @@ margin: 5% 20%;
     height: 700px;
 }
 #buttons{
-    border: 5px;
-    border-color: chartreuse;
-    --color: white ;
-    --background-hover: yellow;
+    --background: #1e2023;
+    --color: #FD8223;
+    --border-color: #1e2023;
+}
+#buttons:hover{
+    --border-color: #FD8223;
+}
+#black{
+    background-color: #1e2023;
 }
