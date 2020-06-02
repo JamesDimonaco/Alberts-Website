@@ -24,6 +24,7 @@ const Collections: React.FC = () => {
           </IonToolbar>
 
         </IonHeader>
+        
           <DefaultCollection/>
 
         <Footer/>
