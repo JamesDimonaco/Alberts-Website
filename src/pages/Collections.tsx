@@ -3,7 +3,7 @@ import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonButton, IonAct
 import './Collections.css';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
-import { DefaultCollection } from '../components/Collections/DefaultCollection'
+
 
 
 
@@ -25,7 +25,7 @@ const Collections: React.FC = () => {
 
         </IonHeader>
         
-          <DefaultCollection/>
+    
 
         <Footer/>
       </IonContent>

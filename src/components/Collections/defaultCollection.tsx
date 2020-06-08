@@ -3,7 +3,7 @@ import { IonContent, IonGrid, IonRow, IonCol} from '@ionic/react';
 import './allCollections.css';
 
 
-export const DefaultCollection: React.FC = () => (
+export const defaultCollection: React.FC = () => (
         <IonContent>
             <IonGrid>
               <IonRow>
