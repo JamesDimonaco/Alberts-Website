@@ -1,9 +1,0 @@
-@import "~react-image-gallery/styles/css/image-gallery.css";
-
-body, h1,p{
-    color: black;
-}
-p{
-    padding: 20px;
-}
-
