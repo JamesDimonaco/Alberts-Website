@@ -17,7 +17,7 @@ margin: 5% 20%;
 }
 #buttons{
     --background: #1e2023;
-    --color: #FD8223;
+    --color: #ffffff;
     --border-color: #1e2023;
 }
 #buttons:hover{
@@ -25,4 +25,31 @@ margin: 5% 20%;
 }
 #black{
     background-color: #1e2023;
+}
+body, h1{
+    color: black;
+}
+#one{
+    padding: 2% 0;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+#two{
+    padding: 2% 1%;
+}
+#three{
+    padding: 1% 2%;
+}
+#four{
+    padding: 0% 5%;
+    padding-bottom: 5%;
+}
+#five {
+    padding: 3%;
+}
+#six{
+    padding:0% 3%;
 }
