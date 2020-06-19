@@ -1,56 +1,71 @@
 .leftButterCenter {
-    margin-left: 35%;
-    margin-right: 20px;
-    --color: white;
+  margin-left: 35%;
+  margin-right: 20px;
+  --color: white;
 }
 .Center {
-    margin: 10px 20px;
+  margin: 10px 20px;
 }
 .Centering {
-    text-align: center;
-    margin: 5% 20%;
+  text-align: center;
+  margin: 5% 20%;
 }
 
 .bertFace {
-    width: 1000px;
-    height: 1100px;
+  width: 1000px;
+  height: 1100px;
 }
 #buttons {
-    --background: #1e2023;
-    --color: #ffffff;
-    --border-color: #1e2023;
+  --background: #1e2023;
+  --color: #ffffff;
+  --border-color: #1e2023;
 }
 #buttons:hover {
-    --border-color: #fd8223;
+  --border-color: #fd8223;
 }
 #black {
-    background-color: #1e2023;
+  background-color: #1e2023;
 }
 body,
 h1 {
-    color: black;
+  color: black;
 }
 #one {
-    padding: 2% 0;
+  padding: 2% 0;
 }
 
 .flex {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 #two {
-    padding: 2% 1%;
+  padding: 2% 1%;
 }
 #three {
-    padding: 1% 2%;
+  padding: 1% 2%;
 }
 #four {
-    padding: 0% 5%;
-    padding-bottom: 5%;
+  padding: 0% 5%;
+  padding-bottom: 5%;
 }
 #five {
-    padding: 3%;
+  padding: 3%;
 }
 #six {
-    padding: 0% 3%;
+  padding: 0% 3%;
+}
+#seven {
+  padding: 1%;
+}
+#eight {
+  width: 45%;
+}
+#nine {
+  width: 45%;
+}
+#ten {
+  padding: 2%;
+}
+#tenn {
+  padding: 2% 10%;
 }
