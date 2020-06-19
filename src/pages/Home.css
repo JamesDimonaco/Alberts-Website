@@ -1,55 +1,56 @@
-.leftButterCenter{
-margin-left: 35%;
-margin-right: 20px;
---color: white;
+.leftButterCenter {
+    margin-left: 35%;
+    margin-right: 20px;
+    --color: white;
 }
-.Center{
+.Center {
     margin: 10px 20px;
 }
-.Centering{
-text-align: center;
-margin: 5% 20%;
+.Centering {
+    text-align: center;
+    margin: 5% 20%;
 }
 
-.bertFace{
+.bertFace {
     width: 1000px;
     height: 1100px;
 }
-#buttons{
+#buttons {
     --background: #1e2023;
     --color: #ffffff;
     --border-color: #1e2023;
 }
-#buttons:hover{
-    --border-color: #FD8223;
+#buttons:hover {
+    --border-color: #fd8223;
 }
-#black{
+#black {
     background-color: #1e2023;
 }
-body, h1{
+body,
+h1 {
     color: black;
 }
-#one{
+#one {
     padding: 2% 0;
 }
 
-.flex{
+.flex {
     display: flex;
     justify-content: space-between;
 }
-#two{
+#two {
     padding: 2% 1%;
 }
-#three{
+#three {
     padding: 1% 2%;
 }
-#four{
+#four {
     padding: 0% 5%;
     padding-bottom: 5%;
 }
 #five {
     padding: 3%;
 }
-#six{
-    padding:0% 3%;
+#six {
+    padding: 0% 3%;
 }
