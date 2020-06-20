@@ -3,6 +3,9 @@
   flex-shrink: initial;
   justify-content: center;
 }
+IonIcon {
+  color: red;
+}
 .Center {
   flex-wrap: wrap;
   min-width: 1px;
@@ -12,13 +15,12 @@
   flex-shrink: 2;
 }
 .Centering {
-  text-align: center;
-  margin: 5% 20%;
+  display: flex;
+  justify-content: center;
 }
 
 .bertFace {
-  width: 1000px;
-  height: 1100px;
+  width: 50%;
 }
 .imgButtons {
   display: flex;
@@ -47,6 +49,10 @@ h1 {
 .flex {
   display: flex;
   justify-content: center;
+}
+.flexpic {
+  display: flex;
+  justify-content: space-between;
 }
 #two {
   padding: 2% 1%;

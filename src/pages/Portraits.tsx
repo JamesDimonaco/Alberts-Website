@@ -51,7 +51,7 @@ const Portraits: React.FC = () => {
           <img src='https://cdn.discordapp.com/attachments/533906819324837944/723537677655474256/unknown.png' />
         </div>
 
-        <div className='flex'>
+        <div className='flexpic'>
           <div id='eight'>
             <img src='https://cdn.discordapp.com/attachments/533906819324837944/720641274281197648/alina4.jpg' />
           </div>

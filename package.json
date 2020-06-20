@@ -15,10 +15,12 @@
     "@types/react-dom": "^16.9.4",
     "@types/react-router": "^5.1.4",
     "@types/react-router-dom": "^5.1.3",
+    "homepage": "https://jamesdimonaco.github.io/Alberts-Website/.",
     "ionicons": "^5.0.0",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
+    "react-directive": "^1.0.0",
     "react-dom": "^16.13.1",
     "react-icons": "^3.10.0",
     "react-image-gallery": "^1.0.7",
@@ -26,8 +28,8 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",
     "reactstrap": "^8.4.1",
-    "typescript": "3.8.3",
-    "homepage": "https://jamesdimonaco.github.io/Alberts-Website/."
+    "serve": "^11.3.2",
+    "typescript": "3.8.3"
   },
   "scripts": {
     "start": "react-scripts start",

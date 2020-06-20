@@ -1,4 +1,4 @@
-import { IonButton, IonHeader } from '@ionic/react'
+import { IonButton, IonHeader, IonIcon } from '@ionic/react'
 import React, { useState } from 'react'
 import '../pages/Home.css'
 
@@ -27,6 +27,8 @@ const Header: React.FC = () => {
         <IonButton fill='outline' id='buttons' className='Center'>
           Contact
         </IonButton>
+        <IonIcon name='heart-outline' size='large' />
+        <IonIcon src='/Users/jamesdimonaco/me/Alberts-Website/src/icons' />
       </IonHeader>
     </div>
   )
