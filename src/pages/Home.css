@@ -1,12 +1,15 @@
-.leftButterCenter {
-  padding-left: 35%;
-}
 .header {
   display: flex;
-  flex-flow: wrap;
+  flex-shrink: initial;
+  justify-content: center;
 }
 .Center {
-  padding-left: 2%;
+  flex-wrap: wrap;
+  min-width: 1px;
+  min-height: 1px;
+  flex-grow: 1;
+  align-content: center;
+  flex-shrink: 2;
 }
 .Centering {
   text-align: center;
@@ -43,7 +46,7 @@ h1 {
 
 .flex {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 #two {
   padding: 2% 1%;
@@ -82,7 +85,22 @@ h1 {
 #tennn {
   padding: 2% 2% 2% 3%;
 }
+#fineart {
+  --background: #725f59;
+}
+#arcitecture {
+  --background: #151b1a;
+  --color: #fd8302;
+}
 .cards {
-  width: 25%;
-  height: 25%;
+  max-width: 22%;
+  max-height: 22%;
+  min-width: 350px;
+}
+#white {
+  color: white;
+}
+#wrap {
+  flex-wrap: wrap;
+  justify-content: space-around;
 }

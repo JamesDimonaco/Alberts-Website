@@ -19,7 +19,7 @@ export const Portfolio: React.FC = () => {
         <IonHeader>
           <Header />
         </IonHeader>
-        <div className='flex'>
+        <div className='flex' id='wrap'>
           <IonCard className='cards' button={true} routerLink='/portraits'>
             <img
               src='https://cdn.discordapp.com/attachments/533906819324837944/720640374858842134/james4.JPG'
@@ -37,31 +37,39 @@ export const Portfolio: React.FC = () => {
             </IonCardContent>
           </IonCard>
 
-          <IonCard className='cards' button={true} routerLink='/home'>
+          <IonCard
+            id='fineart'
+            className='cards'
+            button={true}
+            routerLink='/home'>
             <img
               src='https://cdn.discordapp.com/attachments/533906819324837944/723830451248300042/unknown.png'
               alt=''
             />
             <IonCardHeader>
-              <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
-              <IonCardTitle>Fine Art</IonCardTitle>
+              <IonCardSubtitle id='white'>Card Subtitle</IonCardSubtitle>
+              <IonCardTitle id='white'>Fine Art</IonCardTitle>
             </IonCardHeader>
 
-            <IonCardContent>
+            <IonCardContent id='white'>
               Keep close to Nature's heart... and break clear away, once in
               awhile, and climb a mountain or spend a week in the woods. Wash
               your spirit clean.
             </IonCardContent>
           </IonCard>
 
-          <IonCard className='cards' button={true} routerLink='/portraits'>
+          <IonCard
+            id='arcitecture'
+            className='cards'
+            button={true}
+            routerLink='/portraits'>
             <img
               src='https://cdn.discordapp.com/attachments/533906819324837944/723829809712594964/unknown.png'
               alt=''
             />
             <IonCardHeader>
-              <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
-              <IonCardTitle>Arcitecture</IonCardTitle>
+              <IonCardSubtitle id='arcitecture'>Card Subtitle</IonCardSubtitle>
+              <IonCardTitle id='arcitecture'>Arcitecture</IonCardTitle>
             </IonCardHeader>
 
             <IonCardContent>
@@ -79,6 +87,41 @@ export const Portfolio: React.FC = () => {
             <IonCardHeader>
               <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
               <IonCardTitle>Travel</IonCardTitle>
+            </IonCardHeader>
+
+            <IonCardContent>
+              Keep close to Nature's heart... and break clear away, once in
+              awhile, and climb a mountain or spend a week in the woods. Wash
+              your spirit clean.
+            </IonCardContent>
+          </IonCard>
+        </div>
+        <div className='flex' id='wrap'>
+          <IonCard className='cards' button={true} routerLink='/home'>
+            <img
+              src='https://cdn.discordapp.com/attachments/533906819324837944/723830309275303956/unknown.png'
+              alt=''
+            />
+            <IonCardHeader>
+              <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
+              <IonCardTitle>Travel</IonCardTitle>
+            </IonCardHeader>
+
+            <IonCardContent>
+              Keep close to Nature's heart... and break clear away, once in
+              awhile, and climb a mountain or spend a week in the woods. Wash
+              your spirit clean.
+            </IonCardContent>
+          </IonCard>
+
+          <IonCard className='cards' button={true} routerLink='/portraits'>
+            <img
+              src='https://cdn.discordapp.com/attachments/533906819324837944/720640374858842134/james4.JPG'
+              alt=''
+            />
+            <IonCardHeader>
+              <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
+              <IonCardTitle>Portraits</IonCardTitle>
             </IonCardHeader>
 
             <IonCardContent>
