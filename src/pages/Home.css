@@ -1,10 +1,12 @@
 .leftButterCenter {
-  margin-left: 35%;
-  margin-right: 20px;
-  --color: white;
+  padding-left: 35%;
+}
+.header {
+  display: flex;
+  flex-flow: wrap;
 }
 .Center {
-  margin: 10px 20px;
+  padding-left: 2%;
 }
 .Centering {
   text-align: center;
@@ -14,6 +16,11 @@
 .bertFace {
   width: 1000px;
   height: 1100px;
+}
+.imgButtons {
+  display: flex;
+  padding: 5%;
+  width: 40;
 }
 #buttons {
   --background: #1e2023;
@@ -65,7 +72,17 @@ h1 {
 }
 #ten {
   padding: 2%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 #tenn {
   padding: 2% 10%;
+}
+#tennn {
+  padding: 2% 2% 2% 3%;
+}
+.cards {
+  width: 25%;
+  height: 25%;
 }

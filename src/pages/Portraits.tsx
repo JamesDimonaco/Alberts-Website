@@ -1,17 +1,7 @@
 import React from 'react'
 import './Home.css'
-import Footer from '../components/Footer'
 import Header from '../components/Header'
-import {
-  IonPage,
-  IonContent,
-  IonHeader,
-  IonToolbar,
-  IonTitle,
-  IonText,
-  IonGrid,
-  IonRow,
-} from '@ionic/react'
+import { IonPage, IonContent, IonHeader, IonButton } from '@ionic/react'
 
 const Portraits: React.FC = () => {
   return (
@@ -72,13 +62,13 @@ const Portraits: React.FC = () => {
         <div id='ten'>
           <img src='https://cdn.discordapp.com/attachments/533906819324837944/723535976714076201/unknown.png' />
         </div>
-        <div id='ten'>
+        <div id='tennn'>
           <img src='https://cdn.discordapp.com/attachments/533906819324837944/723536901675417611/unknown.png' />
         </div>
         <div id='tenn'>
           <img src='https://cdn.discordapp.com/attachments/533906819324837944/723537013550350456/unknown.png' />
         </div>
-        <div id='ten'>
+        <div id='tennn'>
           <img src='https://cdn.discordapp.com/attachments/533906819324837944/723537143321853952/unknown.png' />
         </div>
       </IonContent>
