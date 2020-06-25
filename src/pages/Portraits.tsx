@@ -12,7 +12,7 @@ const Portraits: React.FC = () => {
             <Header />
           </div>
         </IonHeader>
-        <IonToggle></IonToggle>
+        <IonToggle>çç</IonToggle>
         <div className=''>
           <img
             id='one'
