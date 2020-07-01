@@ -4,6 +4,9 @@ import { IonApp, IonRouterOutlet } from '@ionic/react'
 import { IonReactRouter } from '@ionic/react-router'
 import Home from './pages/Home'
 import Portraits from './pages/Portraits'
+import DefaultPortraits from './pages/DefaultPortraits'
+
+import { Portfolio } from './pages/Portfolio'
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css'
@@ -23,7 +26,6 @@ import '@ionic/react/css/display.css'
 
 /* Theme variables */
 import './theme/variables.css'
-import { Portfolio } from './pages/Portfolio'
 
 const App: React.FC = () => (
   <IonApp>
@@ -33,6 +35,7 @@ const App: React.FC = () => (
         <Route exact path='/' render={() => <Redirect to='/home' />} />
         <Route path='/portraits' component={Portraits} />
         <Route path='/portfolio' component={Portfolio} />
+        <Route path='/defaultportraits' component={DefaultPortraits} />
       </IonRouterOutlet>
     </IonReactRouter>
   </IonApp>
