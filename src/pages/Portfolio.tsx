@@ -20,10 +20,7 @@ export const Portfolio: React.FC = () => {
           <Header />
         </IonHeader>
         <div className='flex' id='wrap'>
-          <IonCard
-            className='cards'
-            button={true}
-            routerLink='/defaultportraits'>
+          <IonCard className='cards' button={true} routerLink='/portraits'>
             <img
               src='https://cdn.discordapp.com/attachments/533906819324837944/720640374858842134/james4.JPG'
               alt=''
@@ -44,7 +41,7 @@ export const Portfolio: React.FC = () => {
             id='fineart'
             className='cards'
             button={true}
-            routerLink='/portraits'>
+            routerLink='/home'>
             <img
               src='https://cdn.discordapp.com/attachments/533906819324837944/723830451248300042/unknown.png'
               alt=''

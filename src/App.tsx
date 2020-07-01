@@ -3,7 +3,6 @@ import { Redirect, Route } from 'react-router-dom'
 import { IonApp, IonRouterOutlet } from '@ionic/react'
 import { IonReactRouter } from '@ionic/react-router'
 import Home from './pages/Home'
-import DefaultPortraits from './pages/DefaultPortraits'
 import Portraits from './pages/Portraits'
 
 /* Core CSS required for Ionic components to work properly */
@@ -32,7 +31,6 @@ const App: React.FC = () => (
       <IonRouterOutlet>
         <Route path='/home' component={Home} exact={true} />
         <Route exact path='/' render={() => <Redirect to='/home' />} />
-        <Route path='/defaultportraits' component={DefaultPortraits} />
         <Route path='/portraits' component={Portraits} />
         <Route path='/portfolio' component={Portfolio} />
       </IonRouterOutlet>
