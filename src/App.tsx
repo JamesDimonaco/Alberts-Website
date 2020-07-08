@@ -5,6 +5,7 @@ import { IonReactRouter } from '@ionic/react-router'
 import Home from './pages/Home'
 import Portraits from './pages/Portraits'
 import DefaultPortraits from './pages/DefaultPortraits'
+import { FineArt } from './pages/FineArt'
 
 import { Portfolio } from './pages/Portfolio'
 
@@ -36,6 +37,7 @@ const App: React.FC = () => (
         <Route path='/portraits' component={Portraits} />
         <Route path='/portfolio' component={Portfolio} />
         <Route path='/defaultportraits' component={DefaultPortraits} />
+        <Route path='/fineart' component={FineArt} />
       </IonRouterOutlet>
     </IonReactRouter>
   </IonApp>

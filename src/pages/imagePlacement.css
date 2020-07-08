@@ -1,0 +1,52 @@
+IonContent {
+  --background: red;
+}
+.flex {
+  display: flex;
+}
+#fa1 {
+  padding-bottom: 1%;
+}
+#fa2 {
+  padding: 1% 1%;
+  width: 70%;
+}
+#fa3 {
+  padding: 1% 1%;
+  width: 75%;
+}
+#fa4 {
+  padding: 2% 1% 0% 1%;
+}
+#fa5 {
+  padding: 0% 1% 0% 1%;
+  height: 80%;
+  width: 50%;
+}
+#fa6 {
+  padding: 2% 1% 0% 1%;
+}
+#fa7 {
+  padding-top: 1px;
+  padding-left: 24%;
+  padding-right: 24%;
+  margin-bottom: 10px;
+}
+#fa8 {
+  padding-right: 1%;
+}
+#fa9 {
+  padding-left: 1%;
+}
+
+#fad2 {
+  padding: 2% 2%;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+#fad1 {
+  flex-wrap: wrap;
+}
+#fad3 {
+  display: flex;
+}

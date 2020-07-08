@@ -44,7 +44,7 @@ export const Portfolio: React.FC = () => {
             id='fineart'
             className='cards'
             button={true}
-            routerLink='/portraits'>
+            routerLink='/fineart'>
             <img
               src='https://cdn.discordapp.com/attachments/533906819324837944/723830451248300042/unknown.png'
               alt=''
@@ -65,7 +65,7 @@ export const Portfolio: React.FC = () => {
             id='arcitecture'
             className='cards'
             button={true}
-            routerLink='/portraits'>
+            routerLink='/fineart'>
             <img
               src='https://cdn.discordapp.com/attachments/533906819324837944/723829809712594964/unknown.png'
               alt=''
