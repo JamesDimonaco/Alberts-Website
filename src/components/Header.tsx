@@ -21,7 +21,11 @@ const Header: React.FC = () => {
           Portfolio
         </IonButton>
 
-        <IonButton fill='outline' id='buttons' className='Center'>
+        <IonButton
+          fill='outline'
+          id='buttons'
+          className='Center'
+          routerLink='/prints'>
           Prints
         </IonButton>
         <IonButton fill='outline' id='buttons' className='Center'>

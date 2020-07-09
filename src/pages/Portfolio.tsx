@@ -65,7 +65,7 @@ export const Portfolio: React.FC = () => {
             id='arcitecture'
             className='cards'
             button={true}
-            routerLink='/fineart'>
+            routerLink='/arcitecture'>
             <img
               src='https://cdn.discordapp.com/attachments/533906819324837944/723829809712594964/unknown.png'
               alt=''
