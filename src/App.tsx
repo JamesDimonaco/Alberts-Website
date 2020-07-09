@@ -6,7 +6,7 @@ import Home from './pages/Home'
 import Portraits from './pages/Portraits'
 import DefaultPortraits from './pages/DefaultPortraits'
 import { FineArt } from './pages/FineArt'
-import { Arcitecture } from './pages/Architecture'
+import { Architecture } from './pages/Architecture'
 import { Prints } from './pages/Prints'
 import { Portfolio } from './pages/Portfolio'
 
@@ -39,7 +39,7 @@ const App: React.FC = () => (
         <Route path='/portfolio' component={Portfolio} />
         <Route path='/defaultportraits' component={DefaultPortraits} />
         <Route path='/fineart' component={FineArt} />
-        <Route path='/arcitecture' component={Arcitecture} />
+        <Route path='/arcitecture' component={Architecture} />
         <Route path='/prints' component={Prints} />
       </IonRouterOutlet>
     </IonReactRouter>
