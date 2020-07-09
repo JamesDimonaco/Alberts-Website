@@ -5,7 +5,7 @@ import { IonPage, IonContent, IonHeader, IonToggle } from '@ionic/react'
 
 // const image: string = 'https://cdn.discordapp.com/attachments/'
 
-export const Arcitecture: React.FC = () => {
+export const Architecture: React.FC = () => {
   return (
     <IonPage>
       <IonContent>

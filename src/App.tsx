@@ -6,7 +6,7 @@ import Home from './pages/Home'
 import Portraits from './pages/Portraits'
 import DefaultPortraits from './pages/DefaultPortraits'
 import { FineArt } from './pages/FineArt'
-import { Arcitecture } from './pages/Arcitecture'
+import { Arcitecture } from './pages/Architecture'
 import { Prints } from './pages/Prints'
 import { Portfolio } from './pages/Portfolio'
 
