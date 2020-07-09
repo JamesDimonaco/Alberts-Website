@@ -3,6 +3,8 @@ import './Home.css'
 import Header from '../components/Header'
 import { IonPage, IonContent, IonHeader, IonToggle } from '@ionic/react'
 
+const image: string = 'cdn.discordapp.com/attachments/533906819324837944/7206'
+
 const Portraits: React.FC = () => {
   return (
     <IonPage>
@@ -14,32 +16,19 @@ const Portraits: React.FC = () => {
         </IonHeader>
         <IonToggle></IonToggle>
         <div className=''>
-          <img
-            id='one'
-            src='https://cdn.discordapp.com/attachments/533906819324837944/720639819151048834/james2_done.jpg'
-            alt=''
-          />
+          <img id='one' src={image + '39819151048834/james2_done.jpg'} alt='' />
         </div>
         <div className='flex'>
           <div className='' id='two'>
-            <img
-              src='https://cdn.discordapp.com/attachments/533906819324837944/720639799542677584/jamesdone1.jpg'
-              alt=''
-            />
+            <img src={image + '39799542677584/jamesdone1.jpg'} alt='' />
           </div>
 
           <div id='three'>
-            <img
-              src='https://cdn.discordapp.com/attachments/533906819324837944/720640374858842134/james4.JPG'
-              alt=''
-            />
+            <img src={image + '40374858842134/james4.JPG'} alt='' />
           </div>
         </div>
         <div id='four'>
-          <img
-            src='https://cdn.discordapp.com/attachments/533906819324837944/720639930300104715/jam88.jpg'
-            alt=''
-          />
+          <img src={image + '39930300104715/jam88.jpg'} alt='' />
         </div>
         <div className='flex'>
           <div id='five'>
@@ -57,16 +46,10 @@ const Portraits: React.FC = () => {
         </div>
         <div className='flex'>
           <div id='six'>
-            <img
-              src='https://cdn.discordapp.com/attachments/533906819324837944/720639880945729706/jamie_instasend_.jpg'
-              alt=''
-            />
+            <img src={image + '39880945729706/jamie_instasend_.jpg'} alt='' />
           </div>
           <div id='five'>
-            <img
-              src='https://cdn.discordapp.com/attachments/533906819324837944/720639927573807184/jam3.jpg'
-              alt=''
-            />
+            <img src={image + '39927573807184/jam3.jpg'} alt='' />
           </div>
         </div>
 
@@ -79,10 +62,7 @@ const Portraits: React.FC = () => {
 
         <div className='flexpic'>
           <div id='eight'>
-            <img
-              src='https://cdn.discordapp.com/attachments/533906819324837944/720641274281197648/alina4.jpg'
-              alt=''
-            />
+            <img src={image + '41274281197648/alina4.jpg'} alt='' />
           </div>
           <div id='nine'>
             <img
