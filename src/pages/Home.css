@@ -110,3 +110,11 @@ h1 {
   flex-wrap: wrap;
   justify-content: space-around;
 }
+.insta {
+  color: #1e2023;
+  width: 100px;
+}
+.logo {
+  width: 100px;
+  z-index: 2;
+}

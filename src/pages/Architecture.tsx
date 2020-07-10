@@ -13,6 +13,12 @@ export const Architecture: React.FC = () => {
           <div style={{}}>
             <Header />
           </div>
+
+          <img
+            className='logo'
+            src='../../public/assets/icon/icon.png'
+            alt=''
+          />
         </IonHeader>
         <IonToggle></IonToggle>
       </IonContent>

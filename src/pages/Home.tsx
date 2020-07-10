@@ -1,4 +1,4 @@
-import { IonContent, IonHeader, IonPage, IonIcon } from '@ionic/react'
+import { IonContent, IonHeader, IonPage } from '@ionic/react'
 import React from 'react'
 import './Home.css'
 import Header from '../components/Header'
@@ -9,9 +9,8 @@ const Home: React.FC = () => {
       <IonContent scrollY={false}>
         <IonHeader style={{ background: '#ffffff' }}>
           <Header />
-          <IonIcon name='me-heart-outline' size='large'></IonIcon>
-          <IonIcon src='/Users/jamesdimonaco/me/Alberts-Website/src/icons'></IonIcon>
         </IonHeader>
+        <img className='logo' src='../../public/assets/icon/icon.png' alt='' />
 
         <div className='Centering'>
           <img
