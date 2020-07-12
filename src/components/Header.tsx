@@ -6,7 +6,11 @@ const Header: React.FC = () => {
   return (
     <div id='wrap'>
       <IonHeader className='header' id='black'>
-        <img className='logo' src='../../public/assets/icon/icon.png' alt='' />
+        <img
+          className='logo'
+          src='https://cdn.discordapp.com/attachments/731147813592891392/731172654085832845/whiteicon.png'
+          alt=''
+        />
 
         <IonButton
           fill='outline'
@@ -34,9 +38,9 @@ const Header: React.FC = () => {
           Contact
         </IonButton>
         <IonIcon
+          name='logo-instagram'
           className='insta'
-          src='../../public/assets/icon/logo-instagram.svg'
-        />
+          src='https://cdn.discordapp.com/attachments/731147813592891392/731171750653460525/icon.png'></IonIcon>
       </IonHeader>
     </div>
   )

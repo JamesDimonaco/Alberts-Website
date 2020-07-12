@@ -12,8 +12,9 @@ const DefaultPortraits: React.FC = () => {
             <Header />
           </div>
         </IonHeader>
-        <IonToggle></IonToggle>
         <div className=''>
+          <IonToggle></IonToggle>
+
           <img
             id='one'
             src='https://cdn.discordapp.com/attachments/727496094019485797/727497585769840640/james2_done-min.jpg'

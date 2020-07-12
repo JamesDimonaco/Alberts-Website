@@ -15,7 +15,7 @@ export const Prints: React.FC = () => {
         <div className='bgimg'>
           <IonToggle></IonToggle>
           <h1 className='middle'>
-            <strong>COMEING SOON</strong>
+            <strong>COMING SOON</strong>
           </h1>
         </div>
       </IonContent>
