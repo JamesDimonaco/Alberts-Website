@@ -15,7 +15,6 @@ export const FineArt: React.FC = () => {
             <Header />
           </div>
         </IonHeader>
-        <IonToggle></IonToggle>
         <div>
           <img id='fa1' src={image + '368576847972/1-min.png'} alt='' />
           <div id='fad1' className='flex'>
