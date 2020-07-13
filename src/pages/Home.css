@@ -28,9 +28,9 @@ IonIcon {
   width: 40;
 }
 #buttons {
-  --background: #1e2023;
+  --background: #0c0c0e;
   --color: #ffffff;
-  --border-color: #1e2023;
+  --border-color: #0c0c0e;
 }
 #buttons:hover {
   --border-color: #fd8223;
@@ -110,9 +110,8 @@ h1 {
   flex-wrap: wrap;
   justify-content: space-around;
 }
-.insta {
-  color: #1e2023;
-  width: 100px;
+IonIcon {
+  font-size: 64px;
 }
 .logo {
   margin-left: 10px;
@@ -120,4 +119,27 @@ h1 {
   margin-bottom: 2px;
   width: 4%;
   z-index: 2;
+}
+@media (max-width: 500px) {
+  #buttons {
+    color: #1e2023;
+    position: absolute;
+    left: -999999px;
+  }
+  .logo {
+    position: absolute;
+    left: -999999px;
+    opacity: 0;
+  }
+}
+@media (min-width: 500px) {
+  #small {
+    position: absolute;
+    left: -999999px;
+    opacity: 0;
+  }
+  .insta {
+    font-size: 16px;
+    color: white;
+  }
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 import './imagePlacement.css'
 import Header from '../components/Header'
-import { IonPage, IonContent, IonHeader, IonToggle } from '@ionic/react'
+import { IonPage, IonContent, IonHeader } from '@ionic/react'
 
 const image: string =
   'https://cdn.discordapp.com/attachments/729017941210955886/729018'

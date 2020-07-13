@@ -10,7 +10,14 @@ import {
   IonCardSubtitle,
   IonCardTitle,
   IonCardContent,
+  IonMenu,
+  IonList,
+  IonMenuToggle,
+  IonItem,
+  IonIcon,
+  IonRouterOutlet,
 } from '@ionic/react'
+import { logoInstagram } from 'ionicons/icons'
 
 export const Portfolio: React.FC = () => {
   return (
@@ -19,6 +26,31 @@ export const Portfolio: React.FC = () => {
         <IonHeader>
           <Header />
         </IonHeader>
+        <IonMenu
+          type='overlay'
+          swipeGesture={false}
+          side='start'
+          contentId='content'>
+          <IonList>
+            <IonMenuToggle>
+              <IonItem routerLink='./home'>Home</IonItem>
+              <IonItem routerLink='./portfolio'>Portfolio</IonItem>
+              <IonItem routerLink='./prints'>Prints</IonItem>
+              <IonItem>Contact</IonItem>
+              <IonItem
+                target='blank'
+                href='https://www.instagram.com/kiltedtraveller/'>
+                Instagram <IonIcon name={logoInstagram}></IonIcon>
+              </IonItem>
+            </IonMenuToggle>
+            <img
+              className='logo'
+              src='https://cdn.discordapp.com/attachments/731147813592891392/731172654085832845/whiteicon.png'
+              alt=''
+            />
+          </IonList>
+        </IonMenu>
+        <IonRouterOutlet id='content'></IonRouterOutlet>
         <div className='flex' id='wrap'>
           <IonCard
             className='cards'
