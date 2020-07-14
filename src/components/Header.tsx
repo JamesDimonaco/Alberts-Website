@@ -10,16 +10,29 @@ import React from 'react'
 import '../pages/Home.css'
 
 const Header: React.FC = () => {
+  function doSomething() {
+    console.log('testing')
+  }
   return (
     <div id='wrap'>
       <IonHeader className='header' id='black'>
         <IonToolbar id='small'>
-          <IonMenuButton slot='start' autoHide={false}></IonMenuButton>
-
-          <IonIcon
-            className='insta'
+          <IonMenuButton
+            onClick={() => doSomething()}
+            id='testButton'
             slot='start'
-            name={logoInstagram}></IonIcon>
+            autoHide={false}></IonMenuButton>
+          <IonButton
+            fill=''
+            id='button'
+            slot='end'
+            target='blank'
+            href='https://www.instagram.com/kiltedtraveller/'>
+            <IonIcon
+              className='insta'
+              slot='end'
+              icon={logoInstagram}></IonIcon>
+          </IonButton>
         </IonToolbar>
         <img
           className='logo'
@@ -52,10 +65,9 @@ const Header: React.FC = () => {
         <IonButton fill='outline' id='buttons' className='Center'>
           Contact
         </IonButton>
-        <IonIcon
-          name='logo-instagram'
-          className='insta'
-          src='https://cdn.discordapp.com/attachments/731147813592891392/731171750653460525/icon.png'></IonIcon>
+        <IonButton fill='outline' id='buttons' className='Center'>
+          <IonIcon icon={logoInstagram} slot='icon-only' />
+        </IonButton>
       </IonHeader>
     </div>
   )

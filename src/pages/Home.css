@@ -3,8 +3,11 @@
   flex-shrink: initial;
   justify-content: center;
 }
-IonIcon {
+IonList {
   color: red;
+}
+.insta {
+  color: white;
 }
 .Center {
   flex-wrap: wrap;
@@ -28,7 +31,12 @@ IonIcon {
   width: 40;
 }
 #buttons {
-  --background: #0c0c0e;
+  --background: #1f1f1f;
+  --color: #ffffff;
+  --border-color: #0c0c0e;
+}
+#button {
+  --background: #1f1f1f;
   --color: #ffffff;
   --border-color: #0c0c0e;
 }
@@ -109,9 +117,6 @@ h1 {
 #wrap {
   flex-wrap: wrap;
   justify-content: space-around;
-}
-IonIcon {
-  font-size: 64px;
 }
 .logo {
   margin-left: 10px;

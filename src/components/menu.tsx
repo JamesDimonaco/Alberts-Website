@@ -1,26 +1,21 @@
 import {
   IonContent,
-  IonHeader,
   IonPage,
   IonIcon,
-  IonRouterOutlet,
   IonMenu,
+  IonRouterOutlet,
+  IonItem,
   IonList,
   IonMenuToggle,
-  IonItem,
 } from '@ionic/react'
 import React from 'react'
-import './Home.css'
-import Header from '../components/Header'
+import '../pages/Home.css'
 import { logoInstagram } from 'ionicons/icons'
 
-const Home: React.FC = () => {
+export const Menu: React.FC = () => {
   return (
     <IonPage>
-      <IonContent scrollY={false}>
-        <IonHeader style={{ background: '#ffffff' }}>
-          <Header />
-        </IonHeader>
+      <IonContent>
         <IonMenu
           type='overlay'
           swipeGesture={true}
@@ -41,10 +36,6 @@ const Home: React.FC = () => {
                   icon={logoInstagram}></IonIcon>{' '}
                 Instagram
               </IonItem>
-              <IonItem></IonItem>
-              <IonItem></IonItem>
-              <IonItem></IonItem>
-              <IonItem></IonItem>
             </IonMenuToggle>
             <img
               className='logo'
@@ -54,20 +45,7 @@ const Home: React.FC = () => {
           </IonList>
         </IonMenu>
         <IonRouterOutlet id='content'></IonRouterOutlet>
-
-        <img className='logo' src='../../public/assets/icon/icon.png' alt='' />
-
-        <div className='Centering'>
-          <img
-            className='bertFace'
-            src='https://static.wixstatic.com/media/0dfd41_70930db19992466189109c270dd826f1~mv2.jpg/v1/fill/w_1498,h_1662,al_c,q_90,usm_0.66_1.00_0.01/face%20spalt.webp'
-            alt='Albert'
-          />
-        </div>
-        <IonIcon className='insta' slot='end' name='logo-instagram'></IonIcon>
       </IonContent>
     </IonPage>
   )
 }
-
-export default Home
