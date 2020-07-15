@@ -32,6 +32,17 @@ const Home: React.FC = () => {
               <IonItem routerLink='./portfolio'>Portfolio</IonItem>
               <IonItem routerLink='./prints'>Prints</IonItem>
               <IonItem>Contact</IonItem>
+
+              <IonItem></IonItem>
+              <IonItem></IonItem>
+              <IonItem></IonItem>
+              <IonItem></IonItem>
+              <IonItem></IonItem>
+              <IonItem></IonItem>
+              <IonItem></IonItem>
+              <IonItem></IonItem>
+              <IonItem></IonItem>
+              <IonItem></IonItem>
               <IonItem
                 target='blank'
                 href='https://www.instagram.com/kiltedtraveller/'>
@@ -41,10 +52,6 @@ const Home: React.FC = () => {
                   icon={logoInstagram}></IonIcon>{' '}
                 Instagram
               </IonItem>
-              <IonItem></IonItem>
-              <IonItem></IonItem>
-              <IonItem></IonItem>
-              <IonItem></IonItem>
             </IonMenuToggle>
             <img
               className='logo'
@@ -58,6 +65,12 @@ const Home: React.FC = () => {
         <img className='logo' src='../../public/assets/icon/icon.png' alt='' />
 
         <div className='Centering'>
+          <h1 id='text'>
+            <div id='white'>PHOTO</div>GRAPHY
+          </h1>
+          <h1 id='text2'>
+            ALBERT <div id='white'>LUCAS</div>
+          </h1>
           <img
             className='bertFace'
             src='https://static.wixstatic.com/media/0dfd41_70930db19992466189109c270dd826f1~mv2.jpg/v1/fill/w_1498,h_1662,al_c,q_90,usm_0.66_1.00_0.01/face%20spalt.webp'

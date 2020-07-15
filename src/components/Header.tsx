@@ -65,7 +65,12 @@ const Header: React.FC = () => {
         <IonButton fill='outline' id='buttons' className='Center'>
           Contact
         </IonButton>
-        <IonButton fill='outline' id='buttons' className='Center'>
+        <IonButton
+          target='blank'
+          href='https://www.instagram.com/kiltedtraveller/'
+          fill='outline'
+          id='buttons-insta'
+          className='Center'>
           <IonIcon icon={logoInstagram} slot='icon-only' />
         </IonButton>
       </IonHeader>

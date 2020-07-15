@@ -33,7 +33,12 @@ IonList {
 #buttons {
   --background: #1f1f1f;
   --color: #ffffff;
-  --border-color: #0c0c0e;
+  --border-color: #1f1f1f;
+}
+#buttons-insta {
+  --background: #1f1f1f;
+  --color: #ffffff;
+  --border-color: #1f1f1f;
 }
 #button {
   --background: #1f1f1f;
@@ -41,7 +46,7 @@ IonList {
   --border-color: #0c0c0e;
 }
 #buttons:hover {
-  --border-color: #fd8223;
+  --border-color: #1f1f1f;
 }
 #black {
   background-color: #1e2023;
@@ -118,6 +123,23 @@ h1 {
   flex-wrap: wrap;
   justify-content: space-around;
 }
+#white {
+  color: white;
+}
+#text {
+  right: 20%;
+  top: 30%;
+  position: absolute;
+  display: flex;
+  font-size: 360%;
+}
+#text2 {
+  left: 22%;
+  top: 70%;
+  position: absolute;
+  display: flex;
+  font-size: 360%;
+}
 .logo {
   margin-left: 10px;
   margin-top: 2px;
@@ -126,6 +148,11 @@ h1 {
   z-index: 2;
 }
 @media (max-width: 500px) {
+  #buttons-insta {
+    color: #1e2023;
+    position: absolute;
+    left: -999999px;
+  }
   #buttons {
     color: #1e2023;
     position: absolute;
@@ -135,6 +162,20 @@ h1 {
     position: absolute;
     left: -999999px;
     opacity: 0;
+  }
+  #text {
+    right: 20%;
+    top: 10%;
+    position: absolute;
+    display: flex;
+    font-size: 100%;
+  }
+  #text2 {
+    left: 20%;
+    top: 23%;
+    position: absolute;
+    display: flex;
+    font-size: 100%;
   }
 }
 @media (min-width: 500px) {
