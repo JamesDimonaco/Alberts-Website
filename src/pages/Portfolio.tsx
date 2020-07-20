@@ -114,7 +114,7 @@ export const Portfolio: React.FC = () => {
             </IonCardContent>
           </IonCard>
 
-          <IonCard className='cards' button={true} routerLink='/home'>
+          <IonCard className='cards' button={true} routerLink='/travel'>
             <img
               src='https://cdn.discordapp.com/attachments/729993223929593866/729993332528381972/unknown.png'
               alt=''

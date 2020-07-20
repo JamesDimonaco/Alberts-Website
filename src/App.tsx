@@ -9,6 +9,7 @@ import { FineArt } from './pages/FineArt'
 import { Architecture } from './pages/Architecture'
 import { Prints } from './pages/Prints'
 import { Portfolio } from './pages/Portfolio'
+import { Travel } from './pages/Travel'
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css'
@@ -41,6 +42,7 @@ const App: React.FC = () => (
         <Route path='/fineart' component={FineArt} />
         <Route path='/arcitecture' component={Architecture} />
         <Route path='/prints' component={Prints} />
+        <Route path='/travel' component={Travel} />
       </IonRouterOutlet>
     </IonReactRouter>
   </IonApp>
