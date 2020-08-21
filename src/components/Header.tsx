@@ -23,7 +23,7 @@ const Header: React.FC = () => {
             slot='start'
             autoHide={false}></IonMenuButton>
           <IonButton
-            fill=''
+            fill='outline'
             id='button'
             slot='end'
             target='blank'

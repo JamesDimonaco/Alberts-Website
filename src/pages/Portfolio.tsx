@@ -52,6 +52,9 @@ export const Portfolio: React.FC = () => {
         </IonMenu>
         <IonRouterOutlet id='content'></IonRouterOutlet>
         <div className='flex' id='wrap'>
+
+
+          
           <IonCard
             className='cards'
             button={true}
