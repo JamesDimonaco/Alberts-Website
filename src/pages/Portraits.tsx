@@ -11,7 +11,7 @@ const Portraits: React.FC = () => {
       <IonContent>
         <IonHeader>
           <div style={{}}>
-            <Header />
+            <Header theme=''/>
           </div>
         </IonHeader>
         <IonToggle></IonToggle>

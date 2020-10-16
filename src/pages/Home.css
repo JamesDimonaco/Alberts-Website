@@ -1,11 +1,10 @@
-.header {
-  display: flex;
-  flex-shrink: initial;
-  justify-content: center;
-}
 IonList {
   color: red;
 }
+.Background {
+  --background: #c3bdbc;
+}
+
 .insta {
   color: white;
 }
@@ -21,36 +20,20 @@ IonList {
   display: flex;
   justify-content: center;
 }
-
-.bertFace {
-  width: 50%;
+.homeBackground {
+  --background: #ffffff;
 }
+.bertFace {
+  padding-top: 10px;
+  display: inline;
+}
+
 .imgButtons {
   display: flex;
   padding: 5%;
   width: 40;
 }
-#buttons {
-  --background: #1f1f1f;
-  --color: #ffffff;
-  --border-color: #1f1f1f;
-}
-#buttons-insta {
-  --background: #1f1f1f;
-  --color: #ffffff;
-  --border-color: #1f1f1f;
-}
-#button {
-  --background: #1f1f1f;
-  --color: #ffffff;
-  --border-color: #0c0c0e;
-}
-#buttons:hover {
-  --border-color: #1f1f1f;
-}
-#black {
-  background-color: #1e2023;
-}
+
 body,
 h1 {
   color: black;
@@ -140,13 +123,7 @@ h1 {
   display: flex;
   font-size: 360%;
 }
-.logo {
-  margin-left: 10px;
-  margin-top: 2px;
-  margin-bottom: 2px;
-  width: 4%;
-  z-index: 2;
-}
+
 @media (max-width: 500px) {
   #buttons-insta {
     color: #1e2023;

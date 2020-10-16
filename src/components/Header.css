@@ -1,0 +1,22 @@
+.center {
+  display: grid;
+  place-items: center;
+}
+.mainLogo {
+  width: 4%;
+}
+.success {
+  --color: white;
+}
+.home {
+  --color: white;
+  --background: #3e4d44;
+}
+.hire {
+  --color: white;
+  --background: #725f59;
+}
+.works {
+  --background: #596f72;
+  --color: white;
+}
